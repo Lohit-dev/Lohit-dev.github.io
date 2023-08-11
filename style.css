@@ -1,0 +1,60 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+/* VARIABLES */
+:root {
+    --main-color: #e98b2c;
+    --dark: #1b1b22;
+    --dark--light: #32323a;
+    --white:#ffffff;
+    --white-light: #c8c8c8;
+    --font-size: 16px;
+  }  
+
+/* GLOBAL SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+::before,::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: var(--white-light);
+    background-color: var(--dark);
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 300px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.min-vh-100{
+    min-height: 100vh;
+}
+/* about section */
+.about-section .min-vh-100{
+    padding: 120px 15px;
+}
+.about-section{
+    background-color: blue;
+}
