@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,23 +10,51 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <title>Lavi's Porfolio</title>
 </head>
+
 <body>
   <header>
     <nav>
-      <div class="right">
+      <div class="left">
         Lavi's Porfolio
       </div>
-      <div class="left">
+      <div class="right">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
-          <li>Contact Me</li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact</a></li>
         </ul>
 
       </div>
     </nav>
   </header>
+  <main>
+    <section class="first-section">
+      <div class="left-section">
+        Hi, I am <span class="name">Lavi</span>,
+        <div>I am a passionate</div>
+        <!-- <div>Full Stack Developer!</div> -->
+        <span id="element"></span>
+
+      </div>
+      <div class="right-section">
+        <img src="./bg.png" alt="">
+      </div>
+    </section>
+    <section class="second-section">
+      <h1>Past Experience</h1>
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Front-End</i> Developer.', '<i>Back-End</i> Developer.', '&amp; a <i>Full-Stack</i> Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
+
 </html>
