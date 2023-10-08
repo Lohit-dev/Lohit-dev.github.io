@@ -40,12 +40,17 @@ nav ul li a:hover {
 .left {
   font-size: 1.5rem;
 }
-
+main hr{
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
 .first-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 80px 0;
+  margin: 130px 0;
 }
 
 .first-section>div {
@@ -68,4 +73,59 @@ nav ul li a:hover {
 
 #element {
   color: rebeccapurple;
+}
+.second-section{
+  max-width: 80vw;
+  height: 80vh;
+  margin: auto;
+}
+.second-section h1{
+  font-size: 1.9rem;
+}
+.gray{
+  color: gray;
+}
+.second-section .box{
+  background: white;
+  width: 77vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.second-section .vertical{
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 140px;
+}
+.image-top{
+  width: 23px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+.vertical-title{
+  position:relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+}
+.vertical-desc{
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+footer{
+  background-color: #0e0e1a;
+  height: 230px;
+}
+.footer{
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-between ;
+}
+.footer ul {
+  list-style: none;
 }
