@@ -60,6 +60,17 @@ main hr{
 .left-section {
   font-size: 3rem;
 }
+.left-section .buttons{
+  padding: 50px 0;
+}
+.left-section .btn {
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
 
 .right-section {}
 
@@ -119,13 +130,20 @@ main hr{
 }
 footer{
   background-color: #0e0e1a;
-  height: 230px;
 }
 .footer{
   display: flex;
   padding: 23px 122px;
-  justify-content: space-between ;
+  justify-content: space-evenly ;
 }
 .footer ul {
   list-style: none;
+}
+.footer > div{
+  width: 223px;
+}
+.footer-rights{
+  text-align: center;
+  color: gray;
+  padding:12px;
 }
